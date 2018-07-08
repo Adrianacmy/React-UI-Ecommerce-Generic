@@ -1,0 +1,119 @@
+{
+  "categories": [
+    {
+      "id": "health11223",
+      "name": "health",
+      "description": "amazon products, greate user experience",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Prime/XCM_Manual_1123068_newshowcases_1500x300_Prime_Desktop_Showcase_new_Bai_jpg.jpg"
+    },
+    {
+      "id": "beauty1566",
+      "name": "beauty",
+      "description": "amazon products, greate user experience",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Prime/XCM_CUTTLE_1124620_Day_2018_twitch_1500x300_Prime_CUTT_5f58f56e_788c-11e8-b8fd-4340da2f966f-png.png"
+    },
+    {
+      "id": "garden4545",
+      "name": "garden",
+      "description": "amazon products, greate user experience",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/Prints/2018/Campaigns/PrimeDay/PD18-FullWidth-AmazonPhotos_1500x300-v2.jpg"
+    },
+    {
+      "id": "home454878llk",
+      "name": "home & kitchen",
+      "description": "amazon products, greate user experience",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2018/img/Prime/XCM_Manual_1123068_newshowcases_1500x300_Prime_Stone_beam_Desktop_Showcase_new_Summer_ready-pillows_2-jpg.jpg"
+    }
+  ],
+
+  "products": [
+    {
+      "id": "vataminc1245fda5",
+      "categoryId": "health11223",
+      "title": "vatamin c",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51jzmR5iG8L._AC_US160_.jpg",
+      "description": "An essay that contains the most thorough statement of one of Emerson's recurrent themes: the need for each individual to avoid conformity and false consistency, and follow their own instincts and ideas.",
+      "price": 56.3
+    },
+    {
+      "id": "vataminc124fda55",
+      "categoryId": "health11223",
+      "title": "vatamin c",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51jzmR5iG8L._AC_US160_.jpg",
+      "description": "An essay that contains the most thorough statement of one of Emerson's recurrent themes: the need for each individual to avoid conformity and false consistency, and follow their own instincts and ideas.",
+      "price": 56.3
+    },{
+      "id": "vataminc12455",
+      "categoryId": "health11223",
+      "title": "vatamin c",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51jzmR5iG8L._AC_US160_.jpg",
+      "description": "An essay that contains the most thorough statement of one of Emerson's recurrent themes: the need for each individual to avoid conformity and false consistency, and follow their own instincts and ideas.",
+      "price": 56.3
+    },{
+      "id": "vataminc1245fdaf5",
+      "categoryId": "health11223",
+      "title": "vatamin c",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51jzmR5iG8L._AC_US160_.jpg",
+      "description": "An essay that contains the most thorough statement of one of Emerson's recurrent themes: the need for each individual to avoid conformity and false consistency, and follow their own instincts and ideas.",
+      "price": 56.3
+    },
+    {
+      "id": "lemon12312",
+      "categoryId": "health11223",
+      "title": "vatamin lemon",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41QpmyFQOSL._AC_US160_.jpg",
+      "description": "An essay that contains the most thorough statement of one of Emerson's recurrent themes: the need for each individual to avoid conformity and false consistency, and follow their own instincts and ideas.",
+      "price": 45.3
+    },
+    {
+      "id": "hair1222",
+      "categoryId": "beauty1566",
+      "title": "hair care",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51haEsXX2LL._AC_UL246_SR190,246_.jpg",
+      "description": "An essay that contains the most thorough statement of one of Emerson's recurrent themes: the need for each individual to avoid conformity and false consistency, and follow their own instincts and ideas.",
+      "price": 5.9
+    },
+    {
+      "id": "mask124555",
+      "categoryId": "beauty1566",
+      "title": "mask black",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61LYepMN20L._AC_UL246_SR190,246_.jpg",
+      "description": "An essay that contains the most thorough statement of one of Emerson's recurrent themes: the need for each individual to avoid conformity and false consistency, and follow their own instincts and ideas.",
+      "price": 20.6
+    },
+    {
+      "id": "gardenplanter225",
+      "categoryId": "garden4545",
+      "title": "outdoor yard planter",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5152-pXxPkL._AC_US200_.jpg",
+      "description": "Ginsco 25pcs Butterfly Stakes Outdoor Yard Planter Flower Pot Bed Garden Decor Butterflies Christmas Decorations",
+      "price": 6.9
+    },
+    {
+      "id": "veticalgardenwallplanter122",
+      "categoryId": "garden4545",
+      "title": "vertical garden wall planter",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41WRjNPQucL._AC_US200_.jpg",
+      "description": "Meiwo 7 Pocket Hanging Vertical Garden Wall Planter For Yard Garden Home Decoration",
+      "price": 13.6
+    },
+
+    {
+      "id": "bookshelf1224",
+      "categoryId": "home454878llk",
+      "title": "book shelf",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51bN1cWOteL._AC_US200_.jpg",
+      "description": "HSH Furniture 3-Shelf Bookcase, Rustic Bookshelf, Vintage Industrial Metal Display and Storage Tower, Dark Oak",
+      "price": 150
+    },
+    {
+      "id": "lawnsofa45555",
+      "categoryId": "home454878llk",
+      "title": "Lawn Sofa",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61S3ACJ6ecL._AC_US200_.jpg",
+      "description": "Goplus 4 PC Rattan Patio Furniture Set Garden Lawn Sofa Cushioned Seat Wicker Sofa (Mix Gray)",
+      "price": 200
+    }
+
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-ui-2nd",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "^8.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-materialize": "^2.3.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-swipeable-views": "^0.12.14"
+  },
+  "scripts": {
+    "start": "react-scripts start & json-server --watch store.json --port 8080",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "json-server": "^0.14.0"
+  }
+}
