@@ -5,7 +5,7 @@ By Adrianacmy
 
 ## Description
 
-- Simple UI for generic ecommer site
+- Simple React UI for generic ecommer site without Redux
 
 ## Setup/Installation Requirements
 
