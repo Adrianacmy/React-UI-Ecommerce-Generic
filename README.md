@@ -15,10 +15,13 @@ By Adrianacmy
 - To Build production, `npm run build`
 - This project is working with json server, if your port 8080 is unavailable, please change to other ports in package.json at `"start": "react-scripts start & json-server --watch store.json --port 8080",` 
 - Json server will be live at `http://localhost:8080/`
+- If there were errors while installing json server, try to upgrade npm to latest version with ``npm install -g npm@latest``
 
 ## Structure
 
-![structure](./assets/images/diagram.png)
+![structure](./src/components/assets/images/diagram.png)
+
+- The create component is not done yet, but added searach and category components
 
 ## Notes
 
@@ -29,7 +32,7 @@ By Adrianacmy
 
 ## Known Bugs
 
-- The SearchResults components can not display at the right spot
+- The SearchResults components can not display at the right spot which is below the header
 
 ## Technologies focused
 
