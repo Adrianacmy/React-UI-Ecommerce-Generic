@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 export default class SearchResults extends Component{
 
   render(){
-
     let resultsList;
     const { results } = this.props;
 
@@ -16,7 +15,7 @@ export default class SearchResults extends Component{
           <Link to={`/categories/${categoryId}/products/${id}`}>
           
             <div className='col s12 m3'>
-              <div className="card" key={id}>
+              <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
                 <img className="activator responsive-img" src={imageUrl} style={{padding: '20px'}}/>
               </div>

@@ -5,7 +5,6 @@ import Error404 from '../Error404/index';
 
 
 export default ({ match: { url }, categories }) => {
-  // console.log(props);
   return <Fragment>
     <Route exact path={url} render={() => <h3 className='flow-text'>Please select a category</h3>} />
     <Route path={`${url}/:categoryId`}
