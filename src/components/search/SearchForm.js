@@ -7,11 +7,14 @@ import {Row, Input } from 'react-materialize';
 import SearchResults from './SearchResults';
 
 export default class SearchForm extends Component{
-  state = {
-    searchText: 'beauty',
-    category: 'beauty1566',
-    results: []
-  };
+  constructor(props){
+    super(props);
+    this.state = {
+      searchText: 'beauty',
+      category: 'beauty1566',
+      results: []
+    };
+  }
 
   onCategoryChange = (e) => this.setState({[e.target.name]: e.target.value});
 
@@ -30,10 +33,11 @@ export default class SearchForm extends Component{
         .catch(err => console.log(err));
       }
     });
+    this.props.onHandleResultsChange(this.state.results);
   };
 
   render(){
-    const { categories } = this.props;
+    // const { categories, onHandleResultsChange } = this.props;
     // console.log(categories);
       return (
         <div className="nav-wrapper">
@@ -54,7 +58,7 @@ export default class SearchForm extends Component{
                 name='category'
                 onChange={this.onCategoryChange}
                 >
-                {categories.map( ({id, name}) => 
+                {this.props.categories.map( ({id, name}) => 
                   <option value={id} key={id}>{name? name: 'Beauty'}</option>
                 )}
                   
@@ -63,9 +67,7 @@ export default class SearchForm extends Component{
               <label className="label-icon" for="search"><i class="material-icons">search</i></label>
             </div>
           </form>
-          {this.state.results.length > 0 ? (
-            <SearchResults results={this.state.results} />
-          ) : null}
+          
       </div>
       );
   }
@@ -74,3 +76,8 @@ export default class SearchForm extends Component{
 SearchForm.propType = {
   onSearchChange: PropType.func
 }
+
+
+// {this.state.results.length > 0 ? (
+//   <SearchResults results={this.state.results} />
+// ) : null}

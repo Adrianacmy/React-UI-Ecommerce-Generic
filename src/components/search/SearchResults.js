@@ -13,8 +13,7 @@ export default class SearchResults extends Component{
     if (results){
       resultsList = (<div className='row container'>
         {results.map( ({id, title, imageUrl, description, categoryId}) => 
-          <Link to={`/categories/${categoryId}/products/${id}`}>
-          
+          <Link to={`/categories/${categoryId}/products/${id}`} key={id}>
             <div className='col s12 m3'>
               <div className="card" key={id}>
               <div className="card-image waves-effect waves-block waves-light">

@@ -13,7 +13,7 @@ export default ({ categories }) => {
           <NavItem>Categories</NavItem>
         }>
           {categories.map(({ id, name }) =>
-            <NavItem key={id} className='blue lighten-1' to=''><Link to={`/categories/${id}`}>{name}</Link></NavItem>
+            <NavItem key={id} className='blue lighten-1'><Link to={`/categories/${id}`}>{name}</Link></NavItem>
           )}
 
         </Dropdown>

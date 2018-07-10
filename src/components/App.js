@@ -21,6 +21,7 @@ export default class App extends React.Component {
       categories: [],
       results: []
     }
+    this.handleResultsChange = this.handleResultsChange.bind(this);
       
   }
 
@@ -30,19 +31,22 @@ async componentDidMount(){
   this.setState({ categories })
 }
 
-  render(){
+handleResultsChange(newResults){ this.setState({results: newResults})}
+
+render(){
+  // console.log(this.state.results);
     const { categories } = this.state;
     return <BrowserRouter>
         <Fragment>
           <Navbar categories={categories}/>
-          <SearchForm categories={categories} />
+          <SearchForm categories={categories} onHandleResultsChange={this.handleResultsChange}/>
           <Header />
+          <SearchResults results={this.state.results}/>
           <Switch>
             <Route exact path='/' render={props => <Home { ...props} categories={categories}/>} />
             <Route path='/categories' render={props => <Categories {...props} categories={categories}/>} />
             <Route component={Error404} />
           </Switch>
-          <SearchResults />
           <Footer />
         </Fragment>
       </BrowserRouter>
