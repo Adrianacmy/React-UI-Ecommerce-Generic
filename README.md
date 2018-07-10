@@ -29,6 +29,8 @@ By Adrianacmy
 
 - At some point, I accidently git inited at src and the root folder, when I switch to root folder, there was a submodule warning, then I simply deleted the .git in src folder. I ended up not many commits.
 
+- refactor search to lifting state, but not working well
+
 
 ## Known Bugs
 
