@@ -29,7 +29,7 @@ By Adrianacmy
 
 - At some point, I accidently git inited at src and the root folder, when I switch to root folder, there was a submodule warning, then I simply deleted the .git in src folder. I ended up not many commits.
 
-- Refactored seach components to lift searchText and category state, but not working well
+- Refactored seach components to lift searchText and category state on refactor branch, but not working well
 
 
 ## Known Bugs
