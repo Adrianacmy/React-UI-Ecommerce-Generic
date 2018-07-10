@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
-import { Navbar, NavItem, Dropdown, Button } from 'react-materialize';
+
+import { Navbar, NavItem, Dropdown } from 'react-materialize';
 
 
 export default ({ categories }) => {

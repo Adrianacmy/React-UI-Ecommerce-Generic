@@ -4,7 +4,6 @@ import PropType from 'prop-type';
 import axios from 'axios';
 import {Row, Input } from 'react-materialize';
 
-import SearchResults from './SearchResults';
 
 export default class SearchForm extends Component{
   constructor(props){
