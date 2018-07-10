@@ -9,7 +9,7 @@ export default function Product({ title, imageUrl, description, price }){
       <hr />
       <h3>{title}</h3>
       <h4>$ {price}</h4>
-      <img src={imageUrl}/>
+      <img src={imageUrl} alt={title}/>
       <p>{description}</p>
       </div>
     </Fragment>

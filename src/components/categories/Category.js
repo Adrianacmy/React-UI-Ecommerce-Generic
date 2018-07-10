@@ -18,7 +18,7 @@ export default ({ match: { url }, name, description, products }) =>
             <div className='col s12 m3'>
               <div className="card">
                 <div className="card-image waves-effect waves-block waves-light">
-                  <img className="activator responsive-img" src={imageUrl} style={{ padding: '20px' }} />
+                  <img alt={title} className="activator responsive-img" src={imageUrl} style={{ padding: '20px' }} />
                 </div>
                 <div className="card-content">
                   <span className="card-title activator grey-text text-darken-4">{title}<i className="material-icons right">more_vert</i></span>

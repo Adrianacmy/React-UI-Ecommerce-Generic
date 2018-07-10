@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 
@@ -23,8 +23,8 @@ export default ({ categories }) => {
         <NavItem href='components.html'>Contact</NavItem>
 
         <ul className='right'>
-          <li><a href="#"><i className="material-icons">add_shopping_cart</i></a></li>
-          <li><a href="#"><i className="material-icons">account_box</i></a></li>
+          <li><a href="/"><i className="material-icons">add_shopping_cart</i></a></li>
+          <li><a href="/"><i className="material-icons">account_box</i></a></li>
         </ul>
       </div>
     </Navbar>

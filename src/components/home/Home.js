@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import { Link, Route } from 'react-router-dom';
 import Category from '../categories/Category';
 import Error404 from '../Error404/index';
