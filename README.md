@@ -7,6 +7,8 @@ By Adrianacmy
 
 - Simple React UI for generic ecommer site without Redux
 
+![overview](./src/components/assets/images/ecommerce.png)
+
 ## Setup/Installation Requirements
 
 - Clone the project.
@@ -17,19 +19,12 @@ By Adrianacmy
 - Json server will be live at `http://localhost:8080/`
 - If there were errors while installing json server, try to upgrade npm to latest version with ``npm install -g npm@latest``
 
-## Structure
+## User stories
 
-![structure](./src/components/assets/images/diagram.png)
-
-- The create component is not done yet, but added searach and category components
-
-## Notes
-
-- At the first begining I tried to use material-UI, it ended up a bit hard to make all styles work as expected, and some sytax come with it dosen't work well, disturcturing for example, then I restarted with react-matarialize with create-react-app in order to make all new syntax work.
-
-- At some point, I accidently git inited at src and the root folder, when I switch to root folder, there was a submodule warning, then I simply deleted the .git in src folder. I ended up not many commits.
-
-- Refactored seach components to lift searchText and category state on refactor branch, but not working well
+- User can navigate to different categories
+- User can search products with any keywords
+- User can serach products with any keywords and categories 
+- User can navigate to different product detail page
 
 
 ## Known Bugs
